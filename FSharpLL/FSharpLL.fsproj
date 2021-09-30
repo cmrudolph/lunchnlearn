@@ -10,6 +10,9 @@
     <Compile Include="Mathematical.fs" />
     <Compile Include="Values.fs" />
     <Compile Include="TypesFunctions.fs" />
+    <Compile Include="Currying.fs" />
+    <Compile Include="PartialApplication.fs" />
+    <Compile Include="Types.fs" />
   </ItemGroup>
 
 </Project>

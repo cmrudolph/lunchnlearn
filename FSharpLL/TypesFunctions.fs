@@ -50,3 +50,9 @@ let generatedAdd1 = adderGenerator 1
 let generatedAdd2 = adderGenerator 2
 
 // I have now created two int -> int functions, each with different baked-in behavior
+
+// val printInt : x:int -> unit
+let printInt x = printf "x is %i" x
+
+// Worth mentioning is a special type called unit. There is no such thing as a statement (a function without a return value) in F#.
+// Unit is a special range with a single value in it
